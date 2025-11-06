@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
+</head>
+<body>
+      <section id="contact" class="pt-28 pb-16 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+      <!-- Left info -->
+      <div>
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Get In Touch</h2>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          Feel free to reach out if you want to collaborate, ask a question, or just say hi.
+          I’m always open to new ideas and opportunities.
+        </p>
+
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M21.99 4.01c0-1.1-.9-2-2-2H4.01c-1.1 0-2 .9-2 2L2 20c0 1.1.9 2 2.01 2h15.98c1.1 0 2-.9 2-2V4.01zM20 4v.01L12 10 4 4.01V4h16zm0 16H4V8l8 6 8-6v12z"/></svg>
+            <span>abderrahimwail2@gmail.com</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l1.83-1.83c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.56.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 5c0-.55.45-1 1-1h2.5c.55 0 1 .45 1 1 0 1.23.2 2.44.57 3.56.11.35.03.74-.25 1.02l-1.83 1.83z"/></svg>
+            <span>+213 656 43 04 92</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1114.5 9 2.5 2.5 0 0112 11.5z"/></svg>
+            <span>Batna, Algeria</span>
+          </li>
+        </ul>
+
+        <!-- Socials -->
+        <div class="mt-6 flex gap-4">
+          <a href="#" class="text-blue-600 hover:text-blue-800">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.16 4.16 0 001.82-2.3 8.3 8.3 0 01-2.63 1 4.12 4.12 0 00-7.03 3.75 11.68 11.68 0 01-8.47-4.29 4.11 4.11 0 001.28 5.5A4.09 4.09 0 012.8 9.5v.05a4.13 4.13 0 003.3 4.04 4.16 4.16 0 01-1.85.07 4.12 4.12 0 003.84 2.86A8.27 8.27 0 012 19.54a11.64 11.64 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68l-.01-.53A8.36 8.36 0 0022.46 6z"/></svg>
+          </a>
+          <a href="#" class="text-blue-600 hover:text-blue-800">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6 1.1 6 0 4.88 0 3.5 0 2.12 1.12 1 2.5 1c1.38 0 2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.75v2.2h.07c.66-1.25 2.27-2.56 4.67-2.56 5 0 5.93 3.29 5.93 7.56V24h-5V15.5c0-2.02-.04-4.61-2.81-4.61-2.81 0-3.24 2.2-3.24 4.45V24H7.5V8z"/></svg>
+          </a>
+          <a href="#" class="text-blue-600 hover:text-blue-800">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96S6.5 21.96 12 21.96 21.96 17.5 21.96 12 17.5 2.04 12 2.04zm0 17.92a7.96 7.96 0 110-15.92 7.96 7.96 0 010 15.92z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right form -->
+      <form action="https://formspree.io/f/mldoqpan" method="POST" class="bg-white rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-semibold mb-4">Send me a message</h3>
+
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-medium mb-1">Your Name</label>
+          <input type="text" id="name" name="name" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2">
+        </div>
+
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium mb-1">Email</label>
+          <input type="email" id="email" name="email" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2">
+        </div>
+
+        <div class="mb-4">
+          <label for="message" class="block text-sm font-medium mb-1">Message</label>
+          <textarea id="message" name="message" rows="5" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all">
+          Send Message
+        </button>
+        <input type="hidden" name="_subject" value="New message from portfolio!">
+
+      </form>
+
+    </div>
+  </section>
+    <script src="scripts/nav.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="/scripts/footer.js"></script>
+</body>
+</html>
