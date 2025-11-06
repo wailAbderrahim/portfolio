@@ -3,7 +3,7 @@ function navigationBar(){
       <header class="sticky top-0 z-50 bg-gray-50 shadow-md transition-all duration-300">
       <nav class="max-w-6xl mx-auto h-14 flex items-center justify-between px-4">
         <!-- Logo -->
-        <h1 class="font-momo text-xl font-bold tracking-wide">
+        <h1 class="font-momo text-xl md:text-5xl font-bold tracking-wide">
           Wail <span class="text-blue-600">Abderrahim</span>
         </h1>
 
@@ -17,11 +17,11 @@ function navigationBar(){
         <!-- Desktop Menu -->
         <div class="hidden lg:block xl:block">
           <ul class="flex space-x-8">
-            <li><a href="index.html" class="font-momo text-sm font-light hover:text-blue-600 transition-colors">Home</a></li>
-            <li><a href="skills.html" class="font-momo text-sm font-light hover:text-blue-600 transition-colors">Skills</a></li>
-            <li><a href="projects.html" class="font-momo text-sm font-light hover:text-blue-600 transition-colors">Projects</a></li>
-            <li><a href="about.html" class="font-momo text-sm font-light hover:text-blue-600 transition-colors">About me</a></li>
-            <li><a href="contact.html" class="font-momo text-sm font-light hover:text-blue-600 transition-colors">Contact</a></li>
+            <li><a href="index.html" class="font-momo text-sm md:text-lg  font-light hover:text-blue-600 transition-colors">Home</a></li>
+            <li><a href="skills.html" class="font-momo text-sm md:text-lg font-light hover:text-blue-600 transition-colors">Skills</a></li>
+            <li><a href="projects.html" class="font-momo text-sm md:text-lg font-light hover:text-blue-600 transition-colors">Projects</a></li>
+            <li><a href="about.html" class="font-momo text-sm md:text-lg font-light hover:text-blue-600 transition-colors">About me</a></li>
+            <li><a href="contact.html" class="font-momo text-sm md:text-lg font-light hover:text-blue-600 transition-colors">Contact</a></li>
           </ul>
         </div>
       </nav>
