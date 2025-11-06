@@ -3,7 +3,7 @@ function navigationBar(){
       <header class="sticky top-0 z-50 bg-gray-50 shadow-md transition-all duration-300">
       <nav class="max-w-6xl mx-auto h-14 flex items-center justify-between px-4">
         <!-- Logo -->
-        <h1 class="font-momo text-xl md:text-5xl font-bold tracking-wide">
+        <h1 class="font-momo text-xl md:text-3xl font-bold tracking-wide">
           Wail <span class="text-blue-600">Abderrahim</span>
         </h1>
 
