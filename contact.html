@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="dist/output.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Wail Abderrahim | Contact</title>
 </head>
 <body>
@@ -11,8 +15,8 @@
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
       <!-- Left info -->
-      <div>
-        <h2 class="text-3xl font-bold text-slate-900 mb-4">Get In Touch</h2>
+      <div data-aos="zoom-in">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4 font-momo">Get In Touch</h2>
         <p class="text-gray-600 mb-6 leading-relaxed">
           Feel free to reach out if you want to collaborate, ask a question, or just say hi.
           I’m always open to new ideas and opportunities.
@@ -48,8 +52,8 @@
       </div>
 
       <!-- Right form -->
-      <form action="https://formspree.io/f/mldoqpan" method="POST" class="bg-white rounded-xl shadow-lg p-6">
-        <h3 class="text-2xl font-semibold mb-4">Send me a message</h3>
+      <form action="https://formspree.io/f/mldoqpan" method="POST" class="bg-white rounded-xl shadow-lg p-6" data-aos="zoom-in">
+        <h3 class="text-2xl font-semibold mb-4 font-momo">Send me a message</h3>
 
         <div class="mb-4">
           <label for="name" class="block text-sm font-medium mb-1">Your Name</label>
@@ -66,7 +70,7 @@
           <textarea id="message" name="message" rows="5" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2"></textarea>
         </div>
 
-        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all">
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all" data-aos="zoom-in">
           Send Message
         </button>
         <input type="hidden" name="_subject" value="New message from portfolio!">
@@ -78,5 +82,11 @@
     <script src="scripts/nav.js"></script>
       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <script src="/scripts/footer.js"></script>
+    <script>
+  AOS.init({
+    duration: 1000, // مدة الحركة بالميلي ثانية (1000ms = ثانية)
+    once: false,    // false = كل مرة تنزل وتطلع تعاود الحركة
+  });
+</script>
 </body>
 </html>

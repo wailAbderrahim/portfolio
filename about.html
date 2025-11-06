@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="dist/output.css">
+      <!-- CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Wail Abderrahim | About </title>
 </head>
 <body>
@@ -44,7 +50,7 @@
     <!-- Right: About text + Skills -->
     <div class="md:col-span-2">
       <!-- Intro story -->
-      <div class="bg-white shadow-lg rounded-xl p-6 mb-6">
+      <div class="bg-white shadow-lg rounded-xl p-6 mb-6" data-aos="zoom-in">
         <h2 class="text-2xl font-bold text-slate-900 mb-2 font-momo">About Me</h2>
         <p class="text-gray-600 leading-relaxed">
           Hi, I'm <strong>Wail Abderrahim</strong>. I'm a mechanical engineering student with a strong passion for web development.
@@ -63,7 +69,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
         <!-- Skill item with progress -->
-        <div class="bg-white rounded-lg p-4 shadow">
+        <div class="bg-white rounded-lg p-4 shadow" data-aos="fade-right">
           <div class="flex justify-between mb-2">
             <span class="font-medium text-slate-800">HTML</span>
             <span class="text-sm text-gray-500">90%</span>
@@ -74,7 +80,7 @@
           <p class="text-xs text-gray-500 mt-2">Semantic markup & accessibility basics</p>
         </div>
 
-        <div class="bg-white rounded-lg p-4 shadow">
+        <div class="bg-white rounded-lg p-4 shadow" data-aos="fade-left">
           <div class="flex justify-between mb-2">
             <span class="font-medium text-slate-800">CSS / Tailwind</span>
             <span class="text-sm text-gray-500">85%</span>
@@ -85,7 +91,7 @@
           <p class="text-xs text-gray-500 mt-2">Responsive layouts, utilities and components</p>
         </div>
 
-        <div class="bg-white rounded-lg p-4 shadow">
+        <div class="bg-white rounded-lg p-4 shadow" data-aos="fade-right">
           <div class="flex justify-between mb-2">
             <span class="font-medium text-slate-800">JavaScript</span>
             <span class="text-sm text-gray-500">75%</span>
@@ -96,7 +102,7 @@
           <p class="text-xs text-gray-500 mt-2">DOM manipulation & small apps</p>
         </div>
 
-        <div class="bg-white rounded-lg p-4 shadow">
+        <div class="bg-white rounded-lg p-4 shadow" data-aos="fade-left">
           <div class="flex justify-between mb-2">
             <span class="font-medium text-slate-800">SolidWorks / CAD</span>
             <span class="text-sm text-gray-500">80%</span>
@@ -110,7 +116,7 @@
       </div>
 
       <!-- Experience / Projects short -->
-      <div class="mt-6 bg-white rounded-xl p-6 shadow">
+      <div class="mt-6 bg-white rounded-xl p-6 shadow" data-aos="zoom-in">
         <h3 class="text-xl font-semibold mb-3 font-momo">Experience & Projects</h3>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
           <li>Built a responsive portfolio website using Tailwind and vanilla JS.</li>
@@ -120,7 +126,7 @@
       </div>
 
       <!-- Goals -->
-      <div class="mt-6 bg-white rounded-xl p-6 shadow">
+      <div class="mt-6 bg-white rounded-xl p-6 shadow" data-aos="zoom-in">
         <h3 class="text-xl font-semibold mb-3 font-momo">Goals</h3>
         <p class="text-gray-600">
           My goal is to become a full-stack developer, combine mechanical design with smart software,
@@ -135,5 +141,12 @@
     <script src="scripts/nav.js"></script>
       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <script src="/scripts/footer.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // مدة الحركة بالميلي ثانية (1000ms = ثانية)
+    once: false,    // false = كل مرة تنزل وتطلع تعاود الحركة
+  });
+</script>
+
 </body>
 </html>
