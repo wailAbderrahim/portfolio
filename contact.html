@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +10,19 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Wail Abderrahim | Contact</title>
 </head>
-<body>
-      <section id="contact" class="pt-28 pb-16 px-6 min-h-screen">
+<body class="dark:bg-gray-900">
+      <section id="contact" class="pt-28 pb-16 px-6 min-h-screen  ">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
       <!-- Left info -->
       <div data-aos="zoom-in">
-        <h2 class="text-3xl font-bold text-slate-900 mb-4 font-momo">Get In Touch</h2>
-        <p class="text-gray-600 mb-6 leading-relaxed">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4 font-momo dark:text-slate-200">Get In Touch</h2>
+        <p class="text-slate-600 mb-6 leading-relaxed dark:text-slate-400">
           Feel free to reach out if you want to collaborate, ask a question, or just say hi.
           I’m always open to new ideas and opportunities.
         </p>
 
-        <ul class="space-y-3 text-gray-700">
+        <ul class="space-y-3 text-slate-700 dark:text-slate-400">
           <li class="flex items-center gap-3">
             <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M21.99 4.01c0-1.1-.9-2-2-2H4.01c-1.1 0-2 .9-2 2L2 20c0 1.1.9 2 2.01 2h15.98c1.1 0 2-.9 2-2V4.01zM20 4v.01L12 10 4 4.01V4h16zm0 16H4V8l8 6 8-6v12z"/></svg>
             <span>abderrahimwail2@gmail.com</span>
@@ -52,22 +52,22 @@
       </div>
 
       <!-- Right form -->
-      <form action="https://formspree.io/f/mldoqpan" method="POST" class="bg-white rounded-xl shadow-lg p-6" data-aos="zoom-in">
-        <h3 class="text-2xl font-semibold mb-4 font-momo">Send me a message</h3>
+      <form action="https://formspree.io/f/mldoqpan" method="POST" class="bg-white rounded-xl shadow-lg p-6 dark:bg-gray-800" data-aos="zoom-in">
+        <h3 class="text-2xl font-semibold mb-4 font-momo dark:text-slate-200">Send me a message</h3>
 
         <div class="mb-4">
-          <label for="name" class="block text-sm font-medium mb-1">Your Name</label>
-          <input type="text" id="name" name="name" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2">
+          <label for="name" class="block text-sm font-medium mb-1 dark:text-slate-200">Your Name</label>
+          <input type="text" id="name" name="name" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2 dark:text-slate-400">
         </div>
 
         <div class="mb-4">
-          <label for="email" class="block text-sm font-medium mb-1">Email</label>
-          <input type="email" id="email" name="email" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2">
+          <label for="email" class="block text-sm font-medium mb-1 dark:text-slate-200">Email</label>
+          <input type="email" id="email" name="email" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2 dark:text-slate-400">
         </div>
 
         <div class="mb-4">
-          <label for="message" class="block text-sm font-medium mb-1">Message</label>
-          <textarea id="message" name="message" rows="5" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2"></textarea>
+          <label for="message" class="block text-sm font-medium mb-1 dark:text-slate-200">Message</label>
+          <textarea id="message" name="message" rows="5" required class="w-full border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:outline-none p-2 dark:text-slate-400"></textarea>
         </div>
 
         <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all" data-aos="zoom-in">
@@ -79,14 +79,16 @@
 
     </div>
   </section>
+    
     <script src="scripts/nav.js"></script>
-      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<script src="/scripts/footer.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="/scripts/footer.js"></script>
     <script>
-  AOS.init({
-    duration: 1000, // مدة الحركة بالميلي ثانية (1000ms = ثانية)
-    once: false,    // false = كل مرة تنزل وتطلع تعاود الحركة
-  });
-</script>
+      AOS.init({
+        duration: 1000, // مدة الحركة بالميلي ثانية (1000ms = ثانية)
+        once: false,    // false = كل مرة تنزل وتطلع تعاود الحركة
+      });
+    </script>
+    <script src="scripts/theme.js"></script>
 </body>
 </html>
